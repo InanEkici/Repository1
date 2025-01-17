@@ -1,0 +1,44 @@
+/* Banner Image */
+.banner {
+  width: 100%;
+  height:300px; background:url('https://media.istockphoto.com/id/520625727/photo/christmas-market-in-frankfurt.jpg?s=612x612&w=0&k=20&c=uQAPTNB-9FQtE-Z1_GAJpjVDv55eprHsPzHsaidp3r0=') no-repeat center center;
+  background-size:cover;
+}
+
+/* Navigation bar */
+nav{
+  background:#e2d4d4;
+text-align: center;
+  padding: 5px
+}
+
+nav a {
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+  font-size:18px
+}
+
+nav a:hover {
+  background:#000000;
+  padding:5px;
+}
+
+/* Content sections*/
+.content{
+display:none;
+  padding:20px;
+  background:#f4f4f4;
+  margin-top: 20px;
+}
+
+section:target{
+display:block;
+}
+
+body {
+  font-family: Arial,sans-serif;
+  margin:0;
+  padding:0;
+}
+
